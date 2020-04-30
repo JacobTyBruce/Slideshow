@@ -1,0 +1,38 @@
+/* EXP */
+#slideshow-ctnr {
+  width: 80vw;
+  height: 60vh;
+  border: 1px solid black;
+  align-self: center;
+  position: relative;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#slideBtn-ctnr {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 50%;
+  transform: translateY(-50%);
+}
+
+#slidePos {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white
+}
+
+#slidePos p {
+  margin:0;
+}
+
+.ss-obj {
+  width: 100%;
+  height: 100%;
+  background: red;
+}

@@ -1,0 +1,24 @@
+<!DOCTPYE hmtml>
+<html>
+<body>
+	<link type="text/css" rel="stylesheet" href="Slide.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<div id="slideshow-ctnr">
+		<div class="ss-obj">
+		  <h1>Obj 1</h1>
+		</div>
+		<div class="ss-obj">
+		  <h1>Obj 2</h1>
+		</div>
+		<div class="ss-obj">
+		  <h1>Obj 3</h1>
+		</div>
+		<div id="slideBtn-ctnr">
+		  <button class="slideBtn" onclick="lastSlide();"> Back </button>
+		  <button class="slideBtn" onclick="nextSlide();"> Next </button>
+		</div>
+		<div id="slidePos"><p id="currentSlide"></p><p>/</p><p id="slideAmount"></p></div>
+	</div>
+	<script src="Slide.js"></script>
+</body>
+</html>
